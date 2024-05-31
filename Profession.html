@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dribbble - What brings you to Dribbble?</title>
+    <link href='https://fonts.googleapis.com/css?family=Clicker Script' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="Profession.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-heading">
+            <h2>Dribbble</h2>
+            <div class="previous-btn">
+                <button class="button-previous" onclick="location.href = 'profile.html'"> <i
+                        class="material-icons">chevron_left</i></button>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h2>What brings you to Dribbble?</h2>
+        <p style="font-size: 15px; font-weight: 400;">Select the options that best describe you. Don't worry, you can
+            explore other options later.</p>
+        <div class="options">
+            <div class="option" data-option="designer">
+                <div class="option-content">
+                    <img src="undraw_designer_re_5v95.svg" alt="Designer Icon" class="option-image">
+                    <h4>I'm a designer looking to share my work</h4>
+                    <p class="option-description"></p>
+                    <div class="radio-container">
+                        <input type="radio" id="designer-radio" name="option-radio" checked>
+                        <!-- <label for="designer-radio">Select</label> -->
+                    </div>
+                </div>
+            </div>
+            <div class="option" data-option="hire">
+                <div class="option-content">
+                    <img src="undraw_online_learning_re_qw08.svg" alt="Hire Designer Icon"
+                        class="option-image">
+                    <h4>I'm looking to hire a designer</h4>
+                    <p class="option-description"></p>
+                    <div class="radio-container">
+                        <input type="radio" id="hire-radio" name="option-radio">
+                        <!-- <label for="hire-radio">Select</label> -->
+                    </div>
+                </div>
+            </div>
+            <div class="option" data-option="inspiration">
+                <div class="option-content">
+                    <img src="undraw_inspiration_re_ivlv.svg" alt="Inspiration Icon" class="option-image">
+                    <h4>I'm looking for design inspiration</h4>
+                    <p class="option-description"></p>
+                    <div class="radio-container">
+                        <input type="radio" id="inspiration-radio" name="option-radio">
+                        <!-- <label for="inspiration-radio">Select</label> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button id="finishButton" disabled>Finish</button>
+        <p>or press <a href="profile.html" style="text-decoration: none;">Return</a> </p>
+    </div>
+    <script src="Profession.js"></script>
+</body>
+
+</html>

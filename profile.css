@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.profile-frame {
+    font-family: Alexandria;
+}
+
+:root {
+    --profile-img-dimension: 130px;
+}
+
+.navbar {
+    height: 4rem;
+    font-family: Clicker Script;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    font-size: 1.5rem;
+    color: rgba(255, 54, 101, 0.95);
+}
+
+.main-heading {
+    padding-top: 2rem;
+}
+
+.profile-inner-div {
+    margin: 0% 30%;
+    height: 90vh;
+}
+
+.profile-inner-div p {
+    padding-top: 1rem;
+    color: rgb(144, 147, 149);
+    font-size: 0.9rem;
+}
+
+.profile-inner-div h3 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.profile-image {
+    border: 1.4px dotted gray;
+    border-radius: 50%;
+    object-fit: cover;
+    width: var(--profile-img-dimension);
+    height: var(--profile-img-dimension);
+}
+
+.picture-inp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+}
+
+.loaction {
+    width: 100%;
+    padding-top: -2rem;
+    color: black;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid;
+}
+
+.submit-button {
+    padding-top: 4rem;
+
+}
+
+.btn {
+    height: 2rem;
+    width: 10rem;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgba(255, 54, 101, 0.95);
+    color: white;
+    border-color:rgba(255, 54, 101, 0.95);
+}
+
+#myButton:disabled{
+    background-color: rgba(255, 54, 101, 0.95);
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+#choose-image{
+    background-color: rgb(244, 244, 244);
+    border: 1px solid grey;
+    height: 30px;
+    width: 100px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-button p a{
+    text-decoration: none;
+    color: grey;
+}

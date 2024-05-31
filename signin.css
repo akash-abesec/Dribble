@@ -1,0 +1,90 @@
+body{
+    overflow: hidden;
+}
+.row-left{
+    background-color: rgb(149, 174, 227);
+}
+
+.logo{
+    font-family: Clicker Script;
+    font-weight: 800;
+    color: rgba(255, 54, 101, 0.95);
+    font-size: 2rem;
+}
+.title{
+    font-size: 1.7rem;
+    font-weight: 600;
+    font-family: 'Actor';
+}
+.sign-up-img{
+    width: 80%;
+}
+
+.alert-sugestion{
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+}
+
+#conatiner{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#butn{
+    padding-top: 2rem;
+}
+
+.developer{
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.developer a{
+    text-decoration: underline;
+}
+.suggestion{
+    top:4%;
+    left:82%;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+form a{
+    outline: none;
+}
+
+.form-label{
+    margin-bottom: -0.5rem;
+}
+
+.heading-1{
+    font-weight: 700;
+    font-size: x-large;
+    margin-bottom: 2.5rem;
+}
+
+.form-control{
+    background-color: rgb(226, 230, 229);
+}
+
+.form-label{
+    font-weight: 700;
+}
+
+.form-check{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.Protect-form{
+    margin-top: 1rem;
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.btn{
+    width: 10rem;
+    background-color: rgba(255, 54, 101, 0.95);
+}

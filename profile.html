@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Clicker Script' rel='stylesheet'>
+    <title>Profile</title>
+    <link href='https://fonts.googleapis.com/css?family=Alexandria' rel='stylesheet'>   
+     <link rel="stylesheet" href="profile.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h3>Dribbble</h3>
+    </nav>
+    <div class="profile-frame">
+        <div class="profile-inner-div">
+            <h1 class="main-heading">
+                Welcome! Let's create your profile
+            </h1>
+            <p style="opacity: 1;">
+                Let other get to know you better! You can do these later
+            </p>
+            <h3>
+                Add an avatar
+            </h3>
+            <div class="profile-div">
+                <div class="picture-inp">
+                    <img id="uploadPreview" alt="Avatar" src="placeholder-image.webp" class="profile-image"/>
+                    <button id="choose-image">Choose image</button>
+                    <input id="uploadImage" type="file" name="myPhoto" style="display: none;" />
+                </div>
+            </div>
+            <div class="location-area">
+                <label for="fname">
+                    <h3>Add your location</h3>
+                </label>
+                <input type="text" id="location-input" name="fname" placeholder="Enter a location" class="loaction">
+            </div>
+            <div class="submit-button">
+                <button type="button" class="btn"  id="myButton" disabled>
+                    Next
+                </button>
+                <p class="return" id="return" disabled>or press <a href="signup.html">RETURN</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="profile.js"></script>
+</html>
